@@ -1,0 +1,113 @@
+.button {
+    background-color: skyblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 25px;
+    font-family: fantasy;
+    cursor: pointer;
+}
+.image {
+    padding: 15px 32px;
+    justify-content: center;
+
+}
+html, body {
+    margin-left: 20;
+    margin-top: 10;
+    padding-bottom: 10;
+    padding-left: 20;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    color: var(--first-color);
+
+}
+figure {
+    display: flex;
+    margin-bottom: 10;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.box {
+    width: 680px;
+    height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 10px solid rgb(233, 102, 102);
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+    /* box-sizing: border-box; */
+}
+.content {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+header {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(233, 102, 102);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+li {
+    display: inline;
+    color: black;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 14pt;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+li a:hover {
+    background-color: rgb(231, 231, 231)
+}
+
+.active {
+    background-color: rgb(206, 241, 255);
+}
+
+.navigation {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: goldenrod;
+    font-family: initial;
+    display: inline;
+}
+.gif {
+    padding: 15px 32px;
+    justify-content: center;
+}
+.footer {
+    padding-top: 30px;
+}
